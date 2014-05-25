@@ -1,5 +1,4 @@
 <?php
-require_once 'Captcha.php';
 class CaptchaService{
     private $rg;
     public function __construct($randomGenerator){

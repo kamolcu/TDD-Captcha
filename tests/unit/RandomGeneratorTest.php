@@ -1,5 +1,4 @@
 <?php
-require_once 'RandomGenerator.php';
 class RandomGeneratorTest extends PHPUnit_Framework_TestCase{
     public function testGetPattern(){
         $rg = new RandomGenerator();

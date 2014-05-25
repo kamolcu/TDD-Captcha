@@ -1,6 +1,4 @@
 <?php
-require_once 'CaptchaService.php';
-require_once 'RandomGenerator.php';
 class CaptchaServiceTest extends PHPUnit_Framework_TestCase{
     public function testGetCaptcha_1112(){
         $stubRandom = $this->getMock('RandomGenerator');
