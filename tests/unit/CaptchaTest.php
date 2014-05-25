@@ -107,6 +107,11 @@ class CaptchaTest extends PHPUnit_Framework_TestCase
         $this->assertSame("One + 1 =", $captcha->toString());
     }
 
+    public function testToString_One_Plus_2(){
+        $captcha = new Captcha(1,1,1,2);
+        $this->assertSame("One + 2 =", $captcha->toString());
+    }
+
 }
 
 
