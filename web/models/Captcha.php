@@ -83,6 +83,10 @@ class Captcha
 
         return (string) $result;
     }
+
+    public function toString(){
+        return 'One + 1 =';
+    }
 }
 
 class MinusErrorException extends Exception{
